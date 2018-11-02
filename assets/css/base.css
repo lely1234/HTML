@@ -1,3 +1,4 @@
+
 body{
     margin: 0 15px;
 }
@@ -21,51 +22,3 @@ header{
 .page-intro{
     padding-top: 100px;
 }
-
-.title{
-    margin-bottom: 100px;
-}
-
-
-ul{
-    padding: 0;
-}
-
-ul > li{
-    list-style: none;
-}
-
-.description_agenda .box{
-    display: inline-block;
-    width: 32%;
-}
-
-.description_agenda .box img{
-    vertical-align: middle;
-    display: inline-block;
-    max-width: 60px;
-    width: 100%;
-}
-
-.description_agenda .box h4{
-    vertical-align: middle;
-    display: inline-block;
-}
-
-@media screen and (max-width: 768px) {
-    .description_agenda .box {
-        width: 49%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .description_agenda .box {
-        width: 100%;
-    }
-}
-
-
-
-
-
-
