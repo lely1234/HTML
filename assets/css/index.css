@@ -13,79 +13,125 @@ header{
     background: #fff;
 }
 
+p{
+    margin: 0;
+}
+
 .logo img{
     max-width: 90px;
     padding: 10px 15px;
 }
 
 .page-intro{
-    padding-top: 75px;
+    padding-top: 50px;
 }
 
-.logo img{
-    max-width: 90px;
-    padding: 10px 15px;
-}
-
-.title{
-    margin-bottom: 30px;
-}
-
-.sub_title{
+.page-intro > .title{
+    padding: 15px 15px 50px;
+    margin : 0 -15px;
     font-weight: 600;
-    margin-bottom: 60px;
+    background-image: url("https://png.pngtree.com/element_origin_min_pic/16/07/26/16579722b699be8.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-.agenda p{
-    margin: 0;
+.business_group{
+    margin-bottom:70px;
 }
 
-.agenda_title{
+.title > .name{
+    font-size: 32px;
     margin-bottom: 50px;
 }
-    
 
-
-/*
-ul{
-    padding: 0;
+.title .order .strong{
+    font-size: 40px;
 }
 
-ul > li{
-    list-style: none;
+.section{
+    padding-top: 30px;
 }
 
-.description_agenda .box{
+.section_title{
+    margin-bottom: 35px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.speaker{
+    text-align: center;
+}
+
+.speaker > div{
     display: inline-block;
-    width: 32%;
+    margin: 20px 30px;
 }
 
-.description_agenda .box img{
-    vertical-align: middle;
-    display: inline-block;
-    max-width: 60px;
+.speaker > div > img{
     width: 100%;
+    height: 256px;
+    max-width: 256px;
+    margin-bottom: 10px;
 }
 
-.description_agenda .box h4{
-    vertical-align: middle;
-    display: inline-block;
+.speaker > div > p{
+    font-size: 18px;
+}
+
+.speaker > div > .name{
+    color: #300EC1;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {
-    .description_agenda .box {
-        width: 49%;
+    .speaker > div {
+        display: block;
+        
     }
+}
+
+.agenda > div {
+    padding: 5px 10px;
+}
+
+.agenda br {
+    display: none;
 }
 
 @media screen and (max-width: 320px) {
-    .description_agenda .box {
-        width: 100%;
+    .agenda br {
+        display: block;
     }
 }
 
+.agenda > div:nth-child(odd) {
+    background: #F5A3A3;
+}
+
+.agenda > div{
+    font-size: 12px;
+    font-weight: 600;
+}
 
 
+.agenda .location > a{
+    text-decoration: none;
+    color: #300EC1;
+}
 
+.agenda .location > a > img{
+    max-width: 10px;
+}
 
+.agenda .name{
+    color: #433F3F;
+}
 
+footer img{
+    max-width: 18px;
+    vertical-align: middle;
+}
+
+footer a{
+    text-decoration: none;
+}
