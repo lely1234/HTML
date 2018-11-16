@@ -95,51 +95,6 @@ footer a{
     text-decoration: none;
 }
 
-
-@media screen and (max-width: 320px) {
-    
-    h1{
-        font-size: 24px;
-    }
-    
-    h2{
-        font-size: 18px;
-    }
-    
-    h4{
-        font-size: 14px;
-    }
-
-    .speaker > div {
-        display: block;
-    }
-
-    .speaker > div > .photo{
-        width: 150px;
-        height: 150px;
-        margin-bottom: 5px;
-    }
-    
-    .speaker > div > p{
-        font-size: 14px;
-        margin: 0;
-    }
-
-    .agenda > div {
-        padding: 5px 10px;
-        font-size: 10px;
-        font-weight: 600;
-    }
-    
-    .agenda .location > a{
-        display: block;
-    }
-
-    footer{
-        font-size: 12px;
-    }
-    
-    footer > p > a > img {
-        width: 12px;
-    }
-}
+/*
+media query 적용해보기
+*/
